@@ -1,4 +1,5 @@
 name: Metrics
+
 on:
   schedule:
     - cron: "0 0 * * *"   # 每天 UTC 0 点更新一次
@@ -14,9 +15,9 @@ jobs:
       - name: Generate metrics
         uses: lowlighter/metrics@latest
         with:
-  token: ${{ secrets.GITHUB_TOKEN }}
-  user: YZDame
-  template: classic
-  base: header, activity, community
-  plugin_isocalendar: yes
-  plugin_languages: yes
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: YZDame
+          template: classic
+          base: header, activity, community
+          plugin_isocalendar: yes
+          plugin_languages: yes
