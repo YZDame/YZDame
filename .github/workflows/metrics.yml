@@ -15,7 +15,7 @@ jobs:
       - name: Generate metrics
         uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN }}  # 自定义 token
           user: YZDame
           template: classic
           base: header, activity, community
