@@ -1,5 +1,12 @@
 ![Metrics](./metrics.svg)
 
+— 🔭 AI-assisted math grading systems (OCR × LLM)
+- 🌱 OCR pipelines & LLM-based agents
+- 👯 AI + Education, intelligent assessment tools
+- 🤔 Handwritten math OCR & system scaling
+- 💬 Math olympiads, math education, LaTeX, AI teaching tools
+- 📫 Public Account (WeChat): LeyuDame
+
 <!--
 **YZDame/YZDame** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
