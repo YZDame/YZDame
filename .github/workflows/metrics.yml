@@ -21,7 +21,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           user: YZDame
           template: classic
-          base: header, repositories
+          base: header
 
           # ===== 语言统计 =====
           #plugin_languages: yes
