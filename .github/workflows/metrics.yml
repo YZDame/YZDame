@@ -24,17 +24,17 @@ jobs:
           base: header, activity, community, repositories
 
           # ===== 语言统计 =====
-          plugin_languages: yes
-          plugin_languages_ignored: html, css
-          plugin_languages_limit: 8
+          #plugin_languages: yes
+          #plugin_languages_ignored: html, css
+          #plugin_languages_limit: 8
 
           # ===== 提交日历 =====
           plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
+          plugin_isocalendar_duration: full-year
 
           # ===== 代码行数统计 =====
-          plugin_lines: yes
-          plugin_lines_sections: repositories, commits
+          #plugin_lines: yes
+          #plugin_lines_sections: repositories, commits
 
           # ===== 输出与提交配置 =====
           filename: metrics.svg
